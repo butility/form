@@ -1,0 +1,43 @@
+{
+  "name": "@butility/form",
+  "version": "1.0.0",
+  "main": "form.js",
+  "scripts": {
+    "build:types": "tsc --declaration --allowJs --emitDeclarationOnly form.js action.js generate.js validate.js serialize.js",
+    "build:main": "esbuild src/index.ts --bundle --outfile=form.js --format=esm",
+    "build:action": "esbuild src/modules/action.ts --bundle --outfile=action.js --format=esm",
+    "build:generate": "esbuild src/modules/generate.ts --bundle --outfile=generate.js --format=esm",
+    "build:validate": "esbuild src/modules/validate.ts --bundle --outfile=validate.js --format=esm",
+    "build:serialize": "esbuild src/modules/serialize.ts --bundle --outfile=serialize.js --format=esm",
+    "build": "npm run build:main & npm run build:action & npm run build:generate & npm run build:validate & npm run build:serialize",
+    "format": "prettier --write src/**/*.ts",
+    "test": "jest",
+    "type-check": "tsc --noEmit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/butility/form.git"
+  },
+  "keywords": [
+    "butility",
+    "form"
+  ],
+  "author": "Ermiyas Arage",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/butility/form/issues"
+  },
+  "homepage": "https://github.com/butility/form#readme",
+  "description": "",
+  "devDependencies": {
+    "@types/jest": "^29.5.13",
+    "@types/node": "^22.5.5",
+    "esbuild": "^0.23.1",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "prettier": "^3.3.3",
+    "ts-migrate": "^0.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.2"
+  }
+}

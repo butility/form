@@ -1,0 +1,17 @@
+node_modules/
+.npmignore
+.env
+.vscode/
+.dist/
+
+# builds
+form.js
+/form.d.ts
+generate.js
+generate.d.ts
+serialize.js
+serialize.d.ts
+validate.js
+validate.d.ts
+action.js
+action.d.ts
