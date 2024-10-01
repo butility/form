@@ -21,19 +21,19 @@ npm install @butility/form
 ```html
 <!-- To use all the functions and methods -->
 <script src="https://unpkg.com/@butility/form@latest/form.js" type="module"></script>
-<script src="https://cdn.jsdelivr.net/npm/@butility/form@latest/form.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@butility/form@latest/form.js" type="module"></script>
 <!-- To use Validate utils -->
 <script src="https://unpkg.com/@butility/form@latest/validate.js" type="module"></script>
-<script src="https://cdn.jsdelivr.net/npm/@butility/form@latest/validate.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@butility/form@latest/validate.js" type="module"></script>
 <!-- To use Generate utils -->
 <script src="https://unpkg.com/@butility/form@latest/generate.js" type="module"></script>
-<script src="https://cdn.jsdelivr.net/npm/@butility/form@latest/generate.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@butility/form@latest/generate.js" type="module"></script>
 <!-- To use FormAction utils -->
 <script src="https://unpkg.com/@butility/form@latest/action.js" type="module"></script>
-<script src="https://cdn.jsdelivr.net/npm/@butility/form@latest/action.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@butility/form@latest/action.js" type="module"></script>
 <!-- To use Serialize utils -->
 <script src="https://unpkg.com/@butility/form@latest/serialize.js" type="module"></script>
-<script src="https://cdn.jsdelivr.net/npm/@butility/form@latest/serialize.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@butility/form@latest/serialize.js" type="module"></script>
 ```
 ## Examples
 
@@ -88,4 +88,4 @@ You can find [changelog here](https://github.com/butility/form/tree/main/docs/ch
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the [MIT License](LICENSE.md).
